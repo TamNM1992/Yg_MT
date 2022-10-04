@@ -49,6 +49,7 @@ namespace YG.Data.Dtos
         public int AdArm { get; set; }
         public int ApArm { get; set; }
 
+        public long HealPointMax { get; set; }
         public long HealPoint   { get; set; }
         public int HealPointRegen { get; set; }
         public int Mana { get; set; }
@@ -63,23 +64,24 @@ namespace YG.Data.Dtos
         public int TrueDam { get; set; }
         public int HitCount { get; set; }
         public int SpeedHit { get; set; }
-      
+        
+        public int Shield { get; set; }
 
 
         public MonterBase(MonterData monterDto)
         {
             Name = monterDto.Name;
-            Attack = monterDto.Atk * (monterDto.Attribute.AtkBase + monterDto.Type.AtkBase)* monterDto.Level/100;
-            AdDam = (monterDto.Attribute.AdRateAtk + monterDto.Type.AdRateAtk) * Attack / 1000;
-            ApDam = (monterDto.Attribute.ApRateAtk + monterDto.Type.ApRateAtk) * Attack / 1000;
+            Attack = monterDto.Atk * (monterDto.Attribute.AtkBase + monterDto.Type.AtkBase)* monterDto.Level/10;
+            AdDam = (monterDto.Attribute.AdRateAtk + monterDto.Type.AdRateAtk)/10 * Attack /100;
+            ApDam = (monterDto.Attribute.ApRateAtk + monterDto.Type.ApRateAtk)/10 * Attack /100;
 
-            Defender = monterDto.Def * (monterDto.Attribute.DefBase + monterDto.Type.DefBase) * monterDto.Level / 100;
-            AdArm = (monterDto.Attribute.AdRateDef + monterDto.Type.AdRateDef)* Defender / 1000;
-            ApArm = (monterDto.Attribute.ApRateDef + monterDto.Type.ApRateDef)* Defender / 1000;
+            Defender = monterDto.Def * (monterDto.Attribute.DefBase + monterDto.Type.DefBase) * monterDto.Level / 10;
+            AdArm = (monterDto.Attribute.AdRateDef + monterDto.Type.AdRateDef)/10* Defender / 100;
+            ApArm = (monterDto.Attribute.ApRateDef + monterDto.Type.ApRateDef)/10* Defender / 100;
 
             HealPoint = (monterDto.Atk + monterDto.Def) * (monterDto.Attribute.StrengBase +
                 monterDto.Type.StrengBase+ monterDto.Attribute.Tenacity+monterDto.Type.Tenacity) * monterDto.Level;
-
+            HealPointMax = HealPoint;
             HealPointRegen = (monterDto.Attribute.Tenacity+ monterDto.Type.Tenacity)*monterDto.Level;
 
             Mana = (monterDto.Attribute.Intelligent + monterDto.Type.Intelligent+ 
@@ -94,8 +96,7 @@ namespace YG.Data.Dtos
             CritDam = 1000+ ((monterDto.Attribute.AtkBase + monterDto.Attribute.Intelligent+
                 monterDto.Type.Intelligent) * monterDto.Level / 10) + monterDto.Level*50;
 
-            Dodge   = 1000+ (monterDto.Type.DefBase+ monterDto.Attribute.DefBase+
-                monterDto.Attribute.SpeedBase + monterDto.Type.SpeedBase)*monterDto.Level/10 + (monterDto.Level * 100);
+            Dodge   = (monterDto.Attribute.SpeedBase + monterDto.Type.SpeedBase)*monterDto.Level/10 + (monterDto.Level * 100);
             HitRate =10000+ ((monterDto.Attribute.AtkBase + monterDto.Type.AtkBase+ 
                 monterDto.Attribute.Intelligent + monterDto.Type.Intelligent) * monterDto.Level / 10)+(monterDto.Level * 200);
 
@@ -104,6 +105,7 @@ namespace YG.Data.Dtos
 
             TrueDam = 0;
             HitCount = 1;
+            Shield = 0;
             SpeedHit = 1000 + ((monterDto.Attribute.SpeedBase + monterDto.Type.SpeedBase + monterDto.Attribute.AtkBase + monterDto.Type.AtkBase
                        + monterDto.Attribute.AdRateAtk + monterDto.Type.AdRateAtk) * monterDto.Level / 100)+ monterDto.Level*50;
            

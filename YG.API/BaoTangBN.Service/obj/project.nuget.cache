@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6Q8D0jv/dTogmqwLpjjIHRDot2cuTI+cIy7sceFHVMgFHQ8cVlrygxJqJaf2KXqqv0gZutwcDf7p3J22xz00yA==",
+  "dgSpecHash": "EE5VqleyO5opRwgODuAYf6fPQGjmVLDLnKMFWWulffveEVHhiqiYyJSK335vAHc42Ct2bxR7De74GAnvMhZnSg==",
   "success": true,
-  "projectFilePath": "G:\\yg\\YG.API\\BaoTangBN.Service\\YG.Service.csproj",
+  "projectFilePath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Service\\YG.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

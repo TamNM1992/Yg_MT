@@ -23,13 +23,13 @@ namespace YG.Repo.Battle
                 return atk * 5 / 100;
             }
         }
-        public DataBattle DataRemainAvsB(DataBattle AB)
+        public DataBattle DataRemainAvsB(DataBattle AB, int skillA, int skillB)
         {
             long damage;
-            long xdamA = 100;
-            long xdamB = 100;
-            long rdamA = 100;
-            long rdamB = 100;
+            int xdamA = 100;
+            int xdamB = 100;
+            int rdamA = 100;
+            int rdamB = 100;
             if(AB.positionB)
             {
                 AB.Status = AB.Status + $"{AB.MonterB.Name} Power up  \n";
@@ -68,7 +68,9 @@ namespace YG.Repo.Battle
                     {
                         AB.Status = AB.Status + $"{AB.MonterA.Name} Get one more phisic attack \n";
                     }
-                }    
+                }
+                speedhitA = speedhitA - 1000;
+
                 // A crit
                 if (AB.critrateA <= AB.MonterA.CritRate)
                 {
@@ -115,16 +117,16 @@ namespace YG.Repo.Battle
                     {
                         AB.Status = AB.Status + $"{AB.MonterB.Name} Dodge \n";
                         AB.MonterB.HealPoint = hpB;
+                        continue;
 
                     }
                     //B block
                     if (AB.blockrateB <= AB.MonterB.BlockRate)
                     {
-                        AB.Status = AB.Status + $"{AB.MonterB.Name} Block \n";
-                        AB.MonterB.HealPoint = hpB;
+                        AB.Status = AB.Status + $"{AB.MonterB.Name} Block, reduce 50% damage \n";
+                        AB.MonterB.HealPoint = AB.MonterB.HealPoint + damage/2;
                     }
                 }
-                speedhitA = speedhitA - 1000;
             }
 
             //B V A
@@ -142,6 +144,8 @@ namespace YG.Repo.Battle
                         AB.Status = AB.Status + $"{AB.MonterB.Name} Get one more phisic attack \n";
                     }
                 }
+                speedhitB = speedhitB - 1000;
+
                 if (AB.critrateB <= AB.MonterB.CritRate)
                 {
                     AB.Status = AB.Status + $"{AB.MonterB.Name} Crit \n";
@@ -187,16 +191,19 @@ namespace YG.Repo.Battle
                     {
                         AB.Status = AB.Status + $"{AB.MonterA.Name} Dodge \n";
                         AB.MonterA.HealPoint = hpA;
-
+                        continue;
                     }
                     //A block
                     if (AB.blockrateA <= AB.MonterA.BlockRate)
                     {
-                        AB.Status = AB.Status + $"{AB.MonterA.Name} Block \n";
-                        AB.MonterA.HealPoint = hpA;
+                        AB.Status = AB.Status + $"{AB.MonterA.Name} Block, reduce 50% damage  \n";
+                        AB.MonterA.HealPoint = AB.MonterA.HealPoint + damage/2;
                     }
                 }
             }
+            AB.MonterA.HealPoint = AB.MonterA.HealPoint + AB.MonterA.HealPointRegen;
+            AB.MonterB.HealPoint = AB.MonterB.HealPoint + AB.MonterB.HealPointRegen;
+
             return AB;
                                                    
         }

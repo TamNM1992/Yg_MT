@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2fBRKIzQ7yFh+sNMXPJjYhFRiOfQQ+w+kVtvOC3PsDhAwJA6C0i3Gd/o6T70Ur09g9qZZtUdSM1VNiBOsKHCfw==",
+  "dgSpecHash": "nwyERGKiNarUFXQkkHlQM7Rj4iZ9uOUHxj0yUuoM0pi7EXjuwng07d1eyC8wMiM6ghczLduiNmW/Pa5R4yPegw==",
   "success": true,
-  "projectFilePath": "G:\\yg\\YG.API\\BaoTangBn.Data\\YG.Data.csproj",
+  "projectFilePath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBn.Data\\YG.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",

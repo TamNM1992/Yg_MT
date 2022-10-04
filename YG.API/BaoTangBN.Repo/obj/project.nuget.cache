@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TWQxjnAdWnDrJ8FFS6b0L6cD7LAPps0rs1yGd+XkVkP/VqJwdDYYRyiOOplHGaHGDtI9USgacWf2OqddWKQMDg==",
+  "dgSpecHash": "3dAvoclUJ5PET90RulJooHuvQ4Ug2Hc0yG94s9KDCe46hjx0XEKYBsw7Im/Hoxy7DEGG7RdEbixeHZhpDx6Rlg==",
   "success": true,
-  "projectFilePath": "G:\\yg\\YG.API\\BaoTangBN.Repo\\YG.Repo.csproj",
+  "projectFilePath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Repo\\YG.Repo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "07lmkZj3K4b1ldzClMdYLOSVJV3sYB24jNpOQde+sILRN/0AhdbiBeWhco5jcGdxN6C9JWelVBLvx63Rw2kuPA==",
+  "dgSpecHash": "Pe2zqUU4yl+yo/xH5FZcO1jeBZdySJ5bOPqa+HR/Q/FksQMI/B/urMRU1yYgW5S3CSyosmwfUkspKg1YVtcwBA==",
   "success": true,
-  "projectFilePath": "G:\\yg\\YG.API\\BaoTangBN.API\\YG.API.csproj",
+  "projectFilePath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.API\\YG.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

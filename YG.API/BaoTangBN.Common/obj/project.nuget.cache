@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nOqbi8qH+U69fq6qgsBDMx//RAb+M3mrLnnUcdCbFElQpwXxoJ97iT8IZXnbF41SeXoe/E+p4DF/w/tAVEitHg==",
+  "dgSpecHash": "9gGnFlM45NywilZfoZdSHboQJfTvhHW+3ROgvk90V9dvEUc1PSo5xJRX66RNYVqoUydAUBgVDb/0zdzhMKd9yA==",
   "success": true,
-  "projectFilePath": "G:\\yg\\YG.API\\BaoTangBN.Common\\YG.Common.csproj",
+  "projectFilePath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Common\\YG.Common.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",

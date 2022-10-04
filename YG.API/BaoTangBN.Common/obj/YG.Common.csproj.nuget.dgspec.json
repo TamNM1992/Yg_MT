@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\yg\\YG.API\\BaoTangBN.Common\\YG.Common.csproj": {}
+    "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Common\\YG.Common.csproj": {}
   },
   "projects": {
-    "G:\\yg\\YG.API\\BaoTangBN.Common\\YG.Common.csproj": {
+    "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Common\\YG.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\yg\\YG.API\\BaoTangBN.Common\\YG.Common.csproj",
+        "projectUniqueName": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Common\\YG.Common.csproj",
         "projectName": "YG.Common",
-        "projectPath": "G:\\yg\\YG.API\\BaoTangBN.Common\\YG.Common.csproj",
+        "projectPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Common\\YG.Common.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\yg\\YG.API\\BaoTangBN.Common\\obj\\",
+        "outputPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",

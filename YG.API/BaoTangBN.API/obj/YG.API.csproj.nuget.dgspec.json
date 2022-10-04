@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\yg\\YG.API\\BaoTangBN.API\\YG.API.csproj": {}
+    "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.API\\YG.API.csproj": {}
   },
   "projects": {
-    "G:\\yg\\YG.API\\BaoTangBN.API\\YG.API.csproj": {
+    "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.API\\YG.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\yg\\YG.API\\BaoTangBN.API\\YG.API.csproj",
+        "projectUniqueName": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.API\\YG.API.csproj",
         "projectName": "YG.API",
-        "projectPath": "G:\\yg\\YG.API\\BaoTangBN.API\\YG.API.csproj",
+        "projectPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.API\\YG.API.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\yg\\YG.API\\BaoTangBN.API\\obj\\",
+        "outputPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -30,8 +30,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\yg\\YG.API\\BaoTangBN.Service\\YG.Service.csproj": {
-                "projectPath": "G:\\yg\\YG.API\\BaoTangBN.Service\\YG.Service.csproj"
+              "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Service\\YG.Service.csproj": {
+                "projectPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Service\\YG.Service.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "G:\\yg\\YG.API\\BaoTangBN.Common\\YG.Common.csproj": {
+    "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Common\\YG.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\yg\\YG.API\\BaoTangBN.Common\\YG.Common.csproj",
+        "projectUniqueName": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Common\\YG.Common.csproj",
         "projectName": "YG.Common",
-        "projectPath": "G:\\yg\\YG.API\\BaoTangBN.Common\\YG.Common.csproj",
+        "projectPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Common\\YG.Common.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\yg\\YG.API\\BaoTangBN.Common\\obj\\",
+        "outputPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -173,14 +173,14 @@
         }
       }
     },
-    "G:\\yg\\YG.API\\BaoTangBn.Data\\YG.Data.csproj": {
+    "G:\\yg\\Yg_MT\\YG.API\\BaoTangBn.Data\\YG.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\yg\\YG.API\\BaoTangBn.Data\\YG.Data.csproj",
+        "projectUniqueName": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBn.Data\\YG.Data.csproj",
         "projectName": "YG.Data",
-        "projectPath": "G:\\yg\\YG.API\\BaoTangBn.Data\\YG.Data.csproj",
+        "projectPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBn.Data\\YG.Data.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\yg\\YG.API\\BaoTangBn.Data\\obj\\",
+        "outputPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBn.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -199,8 +199,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\yg\\YG.API\\BaoTangBN.Common\\YG.Common.csproj": {
-                "projectPath": "G:\\yg\\YG.API\\BaoTangBN.Common\\YG.Common.csproj"
+              "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Common\\YG.Common.csproj": {
+                "projectPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Common\\YG.Common.csproj"
               }
             }
           }
@@ -263,14 +263,14 @@
         }
       }
     },
-    "G:\\yg\\YG.API\\BaoTangBN.Repo\\YG.Repo.csproj": {
+    "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Repo\\YG.Repo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\yg\\YG.API\\BaoTangBN.Repo\\YG.Repo.csproj",
+        "projectUniqueName": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Repo\\YG.Repo.csproj",
         "projectName": "YG.Repo",
-        "projectPath": "G:\\yg\\YG.API\\BaoTangBN.Repo\\YG.Repo.csproj",
+        "projectPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Repo\\YG.Repo.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\yg\\YG.API\\BaoTangBN.Repo\\obj\\",
+        "outputPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Repo\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -289,8 +289,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\yg\\YG.API\\BaoTangBn.Data\\YG.Data.csproj": {
-                "projectPath": "G:\\yg\\YG.API\\BaoTangBn.Data\\YG.Data.csproj"
+              "G:\\yg\\Yg_MT\\YG.API\\BaoTangBn.Data\\YG.Data.csproj": {
+                "projectPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBn.Data\\YG.Data.csproj"
               }
             }
           }
@@ -329,14 +329,14 @@
         }
       }
     },
-    "G:\\yg\\YG.API\\BaoTangBN.Service\\YG.Service.csproj": {
+    "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Service\\YG.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\yg\\YG.API\\BaoTangBN.Service\\YG.Service.csproj",
+        "projectUniqueName": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Service\\YG.Service.csproj",
         "projectName": "YG.Service",
-        "projectPath": "G:\\yg\\YG.API\\BaoTangBN.Service\\YG.Service.csproj",
+        "projectPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Service\\YG.Service.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "G:\\yg\\YG.API\\BaoTangBN.Service\\obj\\",
+        "outputPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -355,8 +355,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "G:\\yg\\YG.API\\BaoTangBN.Repo\\YG.Repo.csproj": {
-                "projectPath": "G:\\yg\\YG.API\\BaoTangBN.Repo\\YG.Repo.csproj"
+              "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Repo\\YG.Repo.csproj": {
+                "projectPath": "G:\\yg\\Yg_MT\\YG.API\\BaoTangBN.Repo\\YG.Repo.csproj"
               }
             }
           }

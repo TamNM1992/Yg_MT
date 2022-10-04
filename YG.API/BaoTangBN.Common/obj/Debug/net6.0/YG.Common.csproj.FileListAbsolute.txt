@@ -10,3 +10,15 @@ G:\yg\YG.API\BaoTangBN.Common\obj\Debug\net6.0\YG.Common.dll
 G:\yg\YG.API\BaoTangBN.Common\obj\Debug\net6.0\refint\YG.Common.dll
 G:\yg\YG.API\BaoTangBN.Common\obj\Debug\net6.0\YG.Common.pdb
 G:\yg\YG.API\BaoTangBN.Common\obj\Debug\net6.0\ref\YG.Common.dll
+G:\yg\Yg_MT\YG.API\BaoTangBN.Common\bin\Debug\net6.0\YG.Common.deps.json
+G:\yg\Yg_MT\YG.API\BaoTangBN.Common\bin\Debug\net6.0\YG.Common.dll
+G:\yg\Yg_MT\YG.API\BaoTangBN.Common\bin\Debug\net6.0\YG.Common.pdb
+G:\yg\Yg_MT\YG.API\BaoTangBN.Common\obj\Debug\net6.0\YG.Common.csproj.AssemblyReference.cache
+G:\yg\Yg_MT\YG.API\BaoTangBN.Common\obj\Debug\net6.0\YG.Common.GeneratedMSBuildEditorConfig.editorconfig
+G:\yg\Yg_MT\YG.API\BaoTangBN.Common\obj\Debug\net6.0\YG.Common.AssemblyInfoInputs.cache
+G:\yg\Yg_MT\YG.API\BaoTangBN.Common\obj\Debug\net6.0\YG.Common.AssemblyInfo.cs
+G:\yg\Yg_MT\YG.API\BaoTangBN.Common\obj\Debug\net6.0\YG.Common.csproj.CoreCompileInputs.cache
+G:\yg\Yg_MT\YG.API\BaoTangBN.Common\obj\Debug\net6.0\YG.Common.dll
+G:\yg\Yg_MT\YG.API\BaoTangBN.Common\obj\Debug\net6.0\refint\YG.Common.dll
+G:\yg\Yg_MT\YG.API\BaoTangBN.Common\obj\Debug\net6.0\YG.Common.pdb
+G:\yg\Yg_MT\YG.API\BaoTangBN.Common\obj\Debug\net6.0\ref\YG.Common.dll
