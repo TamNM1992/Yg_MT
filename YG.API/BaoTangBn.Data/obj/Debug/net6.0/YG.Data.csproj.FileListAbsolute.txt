@@ -1,0 +1,17 @@
+G:\yg\YG.API\BaoTangBn.Data\bin\Debug\net6.0\YG.Data.deps.json
+G:\yg\YG.API\BaoTangBn.Data\bin\Debug\net6.0\YG.Data.runtimeconfig.json
+G:\yg\YG.API\BaoTangBn.Data\bin\Debug\net6.0\YG.Data.dll
+G:\yg\YG.API\BaoTangBn.Data\bin\Debug\net6.0\YG.Data.pdb
+G:\yg\YG.API\BaoTangBn.Data\bin\Debug\net6.0\YG.Common.dll
+G:\yg\YG.API\BaoTangBn.Data\bin\Debug\net6.0\YG.Common.pdb
+G:\yg\YG.API\BaoTangBn.Data\obj\Debug\net6.0\YG.Data.csproj.AssemblyReference.cache
+G:\yg\YG.API\BaoTangBn.Data\obj\Debug\net6.0\YG.Data.GeneratedMSBuildEditorConfig.editorconfig
+G:\yg\YG.API\BaoTangBn.Data\obj\Debug\net6.0\YG.Data.AssemblyInfoInputs.cache
+G:\yg\YG.API\BaoTangBn.Data\obj\Debug\net6.0\YG.Data.AssemblyInfo.cs
+G:\yg\YG.API\BaoTangBn.Data\obj\Debug\net6.0\YG.Data.csproj.CoreCompileInputs.cache
+G:\yg\YG.API\BaoTangBn.Data\obj\Debug\net6.0\YG.Data.csproj.CopyComplete
+G:\yg\YG.API\BaoTangBn.Data\obj\Debug\net6.0\YG.Data.dll
+G:\yg\YG.API\BaoTangBn.Data\obj\Debug\net6.0\refint\YG.Data.dll
+G:\yg\YG.API\BaoTangBn.Data\obj\Debug\net6.0\YG.Data.pdb
+G:\yg\YG.API\BaoTangBn.Data\obj\Debug\net6.0\YG.Data.genruntimeconfig.cache
+G:\yg\YG.API\BaoTangBn.Data\obj\Debug\net6.0\ref\YG.Data.dll

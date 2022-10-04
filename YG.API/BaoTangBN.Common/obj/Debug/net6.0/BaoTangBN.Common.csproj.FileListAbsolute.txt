@@ -1,0 +1,12 @@
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\bin\Debug\net6.0\BaoTangBN.Common.deps.json
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\bin\Debug\net6.0\BaoTangBN.Common.dll
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\bin\Debug\net6.0\BaoTangBN.Common.pdb
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Debug\net6.0\BaoTangBN.Common.csproj.AssemblyReference.cache
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Debug\net6.0\BaoTangBN.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Debug\net6.0\BaoTangBN.Common.AssemblyInfoInputs.cache
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Debug\net6.0\BaoTangBN.Common.AssemblyInfo.cs
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Debug\net6.0\BaoTangBN.Common.csproj.CoreCompileInputs.cache
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Debug\net6.0\BaoTangBN.Common.dll
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Debug\net6.0\refint\BaoTangBN.Common.dll
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Debug\net6.0\BaoTangBN.Common.pdb
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Debug\net6.0\ref\BaoTangBN.Common.dll

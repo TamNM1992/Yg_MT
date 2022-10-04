@@ -1,0 +1,12 @@
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\bin\Release\net6.0\BaoTangBn.Common.deps.json
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\bin\Release\net6.0\BaoTangBn.Common.dll
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\bin\Release\net6.0\BaoTangBn.Common.pdb
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Release\net6.0\BaoTangBn.Common.csproj.AssemblyReference.cache
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Release\net6.0\BaoTangBn.Common.GeneratedMSBuildEditorConfig.editorconfig
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Release\net6.0\BaoTangBn.Common.AssemblyInfoInputs.cache
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Release\net6.0\BaoTangBn.Common.AssemblyInfo.cs
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Release\net6.0\BaoTangBn.Common.csproj.CoreCompileInputs.cache
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Release\net6.0\BaoTangBn.Common.dll
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Release\net6.0\refint\BaoTangBn.Common.dll
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Release\net6.0\BaoTangBn.Common.pdb
+F:\Dự án TTT số 2\BaoTangBN.API\BaoTangBN.Common\obj\Release\net6.0\ref\BaoTangBn.Common.dll
