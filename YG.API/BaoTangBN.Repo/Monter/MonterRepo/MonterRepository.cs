@@ -46,17 +46,22 @@ namespace YG.Repo.MonterRepo
         {
             try
             {
-                //var type = _context.Type.SingleOrDefault(x=> x.NameType == monterDto.Type);
-                //var attribute = _context.Attribute.SingleOrDefault(x => x.NameAttribute == monterDto.Attribute);
-                
                 var monter = _mapper.Map<MonterDto, Monter>(monterDto);
-                //monter.Name = monterDto.Name;
-                //monter.Level = monterDto.Level;
-                ////monter.Attribute = attribute;
-                ////monter.Type = type;
-                //monter.Atk = monterDto.Atk;
-                //monter.Def = monterDto.Def;
-                _context.Monter.Add(monter);
+
+                var temp = _context.Monter.SingleOrDefault(x=> x.Name == monterDto.Name);
+                if (temp == null)
+                {
+                    _context.Monter.Add(monter);
+
+                }
+                else
+                {
+                    temp.Atk = monterDto.Atk;
+                    temp.Def = monterDto.Def;
+                    temp.Level = monterDto.Level;
+                    temp.Attribute = monterDto.Attribute;
+                    temp.Type = monterDto.Type;
+                }    
                 _context.SaveChanges();
                 return true;
             }

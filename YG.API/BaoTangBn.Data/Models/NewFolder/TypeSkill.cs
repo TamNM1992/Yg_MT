@@ -8,15 +8,12 @@ namespace YG.Data.Models
 {
     public class TypeSkill
     {
+        public Guid Id { get; set; }
+        public string Name { get; set; }
+        public TypeSkill()
+        {
+            this.Skill = new HashSet<Skill>();
+        }
+        public virtual ICollection<Skill> Skill { get; set; }
     }
-    public class Damage : TypeSkill
-    { }
-    public class IncreaseAd : TypeSkill
-    { }
-    public class IncreaseAp : TypeSkill
-    { }
-    public class IncreaseAdArm : TypeSkill
-    { }
-    public class IncreaseApArm : TypeSkill
-    { }
 }

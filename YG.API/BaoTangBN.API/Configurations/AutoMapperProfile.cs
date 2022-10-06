@@ -22,7 +22,13 @@ namespace YG.API.Configurations
             CreateMap<Type, TypeDto>().ReverseMap();
             CreateMap<TypeDto, Type>().ReverseMap();
 
+            CreateMap<Skill, SkillDto>().ReverseMap();
+            CreateMap<SkillDto, Skill>().ReverseMap();
+            CreateMap<Skill, SkillCreateDto>().ReverseMap();
+            CreateMap<SkillCreateDto, Skill>().ReverseMap();
 
+            CreateMap<TypeSkill, TypeSkillDto>().ReverseMap();
+            CreateMap<TypeSkillDto, TypeSkill>().ReverseMap();
         }
     }
 }

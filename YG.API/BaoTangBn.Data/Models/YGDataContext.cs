@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using YG.Data.Dtos;
 using YG.Data.Models;
 
 namespace YG.Data.Models
@@ -19,6 +20,8 @@ namespace YG.Data.Models
         public DbSet<Monter> Monter { get; set; }
         public DbSet<Attribute> Attribute { get; set; }
         public DbSet<Type> Type { get; set; }
+        public DbSet<Skill> Skill { get; set; }
+        public DbSet<TypeSkill> TypeSkill { get; set; }
 
     }
 }

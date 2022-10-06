@@ -54,8 +54,8 @@ namespace YG.Repo.Battle
             //A V B
             long hpB = AB.MonterB.HealPoint;
             long hpA = AB.MonterA.HealPoint;
-            int speedhitA = (int)AB.MonterA.SpeedHit;
-            int speedhitB = (int)AB.MonterB.SpeedHit;
+            int speedhitA = AB.MonterA.SpeedHit;
+            int speedhitB = AB.MonterB.SpeedHit;
             while (speedhitA > 0)
             {
                 if(speedhitA<1000)
@@ -211,7 +211,7 @@ namespace YG.Repo.Battle
         {
             data.Status = data.Status + $" Turn {turn}  \n";
             data.Status = data.Status + $" {data.MonterA.Name}  vs  {data.MonterB.Name}   \n";
-            data = DataRemainAvsB(data);
+            //data = DataRemainAvsB(data);
             data.SetRate();
             return data;
         }

@@ -23,7 +23,11 @@ namespace YG.Data.Models
         public int Level { get; set; }
         public int Atk { get; set; }
         public int Def { get; set; }
-        //public Guid Skill { get; set; }
+        public Monter()
+        {
+            this.Skill = new HashSet<Skill>();
+        }
+        public virtual ICollection<Skill> Skill { get; set; }
 
 
     }

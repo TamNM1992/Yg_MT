@@ -10,6 +10,8 @@ using YG.Service.MonterService;
 using YG.Repo.MonterRepo;
 using YG.Service.Battle;
 using YG.Repo.Battle;
+using YG.Repo.SkillRepo;
+using YG.Repo.SkillService;
 
 namespace YG.API
 {
@@ -45,12 +47,14 @@ namespace YG.API
             // //service
             services.AddScoped<IMonterService, MonterService>();
             services.AddScoped<IBattleService, BattleService>();
+            services.AddScoped<ISkillService, SkillService>();
 
 
 
             // //repo
             services.AddScoped<IMonterRepository, MonterRepository>();
             services.AddScoped<IBattleRepository, BattleRepository>();
+            services.AddScoped<ISkillRepo, SkillRepo>();
 
 
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));

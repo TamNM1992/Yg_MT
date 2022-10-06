@@ -22,6 +22,36 @@ namespace YG.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("MonterSkill", b =>
+                {
+                    b.Property<Guid>("MonterID")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("SkillId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("MonterID", "SkillId");
+
+                    b.HasIndex("SkillId");
+
+                    b.ToTable("MonterSkill");
+                });
+
+            modelBuilder.Entity("SkillTypeSkill", b =>
+                {
+                    b.Property<Guid>("SkillId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<Guid>("TypeSkillId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.HasKey("SkillId", "TypeSkillId");
+
+                    b.HasIndex("TypeSkillId");
+
+                    b.ToTable("SkillTypeSkill");
+                });
+
             modelBuilder.Entity("YG.Data.Models.Attribute", b =>
                 {
                     b.Property<Guid>("Id")
@@ -99,6 +129,37 @@ namespace YG.Data.Migrations
                     b.ToTable("Monter");
                 });
 
+            modelBuilder.Entity("YG.Data.Models.Skill", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<int>("CountDown")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Des")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("EffectiveTime")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("TargetNum")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Value")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Skill");
+                });
+
             modelBuilder.Entity("YG.Data.Models.Type", b =>
                 {
                     b.Property<Guid>("Id")
@@ -142,6 +203,51 @@ namespace YG.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Type");
+                });
+
+            modelBuilder.Entity("YG.Data.Models.TypeSkill", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TypeSkill");
+                });
+
+            modelBuilder.Entity("MonterSkill", b =>
+                {
+                    b.HasOne("YG.Data.Models.Monter", null)
+                        .WithMany()
+                        .HasForeignKey("MonterID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("YG.Data.Models.Skill", null)
+                        .WithMany()
+                        .HasForeignKey("SkillId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("SkillTypeSkill", b =>
+                {
+                    b.HasOne("YG.Data.Models.Skill", null)
+                        .WithMany()
+                        .HasForeignKey("SkillId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("YG.Data.Models.TypeSkill", null)
+                        .WithMany()
+                        .HasForeignKey("TypeSkillId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
